@@ -1,0 +1,103 @@
+body {
+	background-color: darkslategrey;
+}
+
+p {
+	color:  whitesmoke;
+	font-family: Optima, sans-serif;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-family: Optima, sans-serif;
+	color: whitesmoke;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/* ------------ */
+
+#img {
+	float: left;
+    margin-right: 10px;
+    clear:both;
+    padding-left: 170px;
+}
+
+#p {
+    margin-left: 0px;
+    overflow:auto;
+    display:block;
+    padding-top: 90px;
+    padding-bottom: 150px;
+    padding-left: 50px;
+    padding-right: 150px;
+    text-align: center;
+
+}
+
+/* Navigation CSS */
+
+
+
+nav {
+	background-color: black;
+}
+
+.nav {
+	font-size: 30px ;
+}
+
+.logo-image {
+	width: 48px;
+	height: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 500px;
+	justify-content: center;
+}
+
+.navbar-logo {
+	align-items: center;
+
+}
+
+
+/* Footer */
+
+footer {
+    left: 0;
+    right: 0;
+    background: black;
+    height: auto;
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: whitesmoke;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.logo-image2 {
+	width: 48px;
+	height: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.footer-logo {
+	align-items: center;
+	float: center;
+}
